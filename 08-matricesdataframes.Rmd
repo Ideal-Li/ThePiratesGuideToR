@@ -115,7 +115,7 @@ There are a number of ways to create your own matrix and dataframe objects in R.
 |:-------------|:-------------------|:------------------------------|
 |     `cbind(a, b, c)`| Combine vectors as columns in a matrix |`cbind(1:5, 6:10, 11:15)`     |
 |     `rbind(a, b, c)`| Combine vectors as rows in a matrix|`rbind(1:5, 6:10, 11:15)`    |
-|     `matrix(x, nrow, ncol, byrow)`| Create a matrix from a vector `x`   | `matrix(x = 1:12, nrow = 3, ncol = 4)` |
+|     `matrix(x, nrow, ncol, byrow)`| Create a matrix from a vector `x`   | `matrix(data = 1:12, nrow = 3, ncol = 4)` |
 |     `data.frame()`|  Create a dataframe from named columns | `data.frame("age" = c(19, 21),` <br>`sex = c("m", "f"))` |
 
 Table: (\#tab:matrixfunctions) Functions to create matrices and dataframes.
