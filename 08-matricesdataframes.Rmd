@@ -300,7 +300,7 @@ To learn about the classes of columns in a dataframe, in addition to some other 
 str(ToothGrowth)
 ```
 
-Here, we can see that `ToothGrowth` is a dataframe with 60 observations (ie., rows) and 5 variables (ie., columns). We can also see that the column names are `index`, `len`, `len.cm`, `supp`, and `dose`
+Here, we can see that `ToothGrowth` is a dataframe with 60 observations (ie., rows) and 5 variables (ie., columns). We can also see that the column names are `index`, `len`, `len.cm`, `supp`, and `dose`.
 
 
 
